@@ -1,0 +1,5 @@
+<p>
+parent-component works!
+</p>
+<app-child-component (EventEmitter)="message=$event" [parentData]="name"></app-child-component>
+<h3>{{message}}</h3>
